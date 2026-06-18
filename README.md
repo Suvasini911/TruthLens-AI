@@ -1,40 +1,66 @@
 # 🔍 TruthLens AI
 
-An AI-powered misinformation detection platform that helps users verify the authenticity of news articles, social media posts, and online content using advanced Natural Language Processing (NLP) and Machine Learning techniques.
+## Verify Before You Trust
+
+TruthLens AI is an AI-powered multi-modal content verification platform that helps users identify misinformation by analyzing both text and images. The platform generates credibility scores, risk assessments, and explainable AI insights to help users make informed decisions.
 
 ## 🚀 Problem Statement
 
-With the rapid spread of misinformation across digital platforms, users often struggle to identify trustworthy information. TruthLens AI aims to provide quick and reliable content verification, helping users make informed decisions.
+Fake news, manipulated images, deepfakes, and AI-generated content are spreading faster than traditional fact-checking methods can respond.
 
-## ✨ Features
+TruthLens AI provides instant verification by combining Natural Language Processing (NLP), image authenticity analysis, and explainable AI.
 
-- 📰 Fake News Detection
-- 🤖 AI-Powered Content Analysis
-- 📊 Confidence Score Generation
-- ⚡ Real-Time Verification
-- 📈 User-Friendly Dashboard
-- 🔍 Detailed Explanation of Results
-- 🌐 Web-Based Interface
+## ✨ Key Features
 
-## 🛠️ Tech Stack
+### Text Verification
+- News credibility assessment
+- Writing pattern analysis
+- NLP-based trust scoring
+- Risk assessment
+
+### Image Verification
+- Image upload and preview
+- Authenticity assessment
+- Suspicious content detection
+
+### Explainable AI
+- Plain-language explanations
+- Credibility reasoning
+- Actionable recommendations
+
+### Trust Dashboard
+- Trust Score (0–100)
+- Risk Level Indicator
+- AI Verdict Generation
+
+## 🏗️ System Architecture
+
+User → React Frontend → Node.js + Express API → FastAPI Service → AI Verification Engine → Trust Report
+
+## 🛠️ Technology Stack
 
 ### Frontend
 - React.js
-- HTML5
-- CSS3
 - JavaScript
+- Axios
 
 ### Backend
 - Node.js
 - Express.js
 
-### AI Engine
-- Python
-- Machine Learning
-- Natural Language Processing (NLP)
-
 ### Database
 - MongoDB
+
+### AI / ML
+- Python
+- FastAPI
+- Transformers
+- NLP Models
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
 
 ## 📂 Project Structure
 
@@ -45,74 +71,51 @@ TruthLens-AI/
 ├── screenshots/
 └── README.md
 
-## ⚙️ Installation
+## 🎯 Target Users
 
-### Clone Repository
+- Students
+- Journalists
+- Educators
+- Organizations
+- Social Media Users
 
-```bash
-git clone https://github.com/Suvasini911/TruthLens-AI.git
-cd TruthLens-AI
+## 🚀 Future Enhancements
 
-Install Frontend Dependencies
-Bash
+- Deepfake Detection
+- Reverse Image Search
+- AI Fact Verification
+- Browser Extension
+- Social Media Integration
+- Cloud Deployment
 
-cd frontend
-npm install
-npm run dev
-Install Backend Dependencies
-Bash
+## 👩‍💻 Developed By
 
-cd backend
-npm install
-npm start
-Run AI Engine
-Bash
-
-cd ai-engine
-pip install -r requirements.txt
-python app.py
-📸 Screenshots
-Project screenshots are available in the screenshots folder.
-
-🎯 Use Cases
-News Verification
-
-Social Media Fact Checking
-
-Educational Research
-
-Content Validation
-
-Misinformation Prevention
-
-🔮 Future Enhancements
-Multi-language Support
-
-Browser Extension
-
-Voice-Based Verification
-
-Advanced Deepfake Detection
-
-Mobile Application
-
-👩‍💻 Team
-Suvasini G
-
-Computer Science & Engineering
+**Suvasini G**  
+Computer Science & Engineering  
 CMR University, Bengaluru
 
-🏆 Achievements
-Developed as an AI-powered solution to combat misinformation and improve digital trust through intelligent content verification.
+## 🏆 Event
 
-📄 License
-This project is developed for educational, research, and hackathon purposes.
+Bharat Academix CodeQuest 2026
+
+## 📜 License
+
+This project is intended for educational, research, and hackathon purposes.
+
+AI-powered multi-modal content verification platform using NLP, image analysis, and explainable AI to detect misinformation.
+
+## GitHub Topics
 
 
+ai
+machine-learning
+nlp
+misinformation-detection
+fake-news-detection
+react
+nodejs
+python
+mongodb
+fastapi
+hackathon
 
-### GitHub Repository Description
-
-Go to your repository → ⚙️ Settings/Edit Description and paste:
-
-```text
-AI-powered misinformation detection platform using Machine Learning and NLP for real-time
