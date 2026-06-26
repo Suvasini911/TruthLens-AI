@@ -1,0 +1,14 @@
+TruthLens AI Demo Video
+
+Google Drive Link:
+https://drive.google.com/file/d/1Kch3dKW_wwpFaWmaoE2J8r4LmaN8OHAr/view?usp=sharing
+
+Submitted By:
+Suvasini G
+CMR University
+
+Description:
+This video demonstrates the TruthLens AI platform, including
+content analysis, source credibility assessment, trust scoring,
+risk evaluation, PDF report generation, and the ASEEV
+Verification Framework.
